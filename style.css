@@ -1,0 +1,44 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    
+    font-size: 10pt;
+    
+
+}
+
+body{
+    background: rgb(135,135,142);
+    background: linear-gradient(120deg, rgba(135,135,142,1) 10%,  rgb(0, 140, 255) 70%, rgba(9,9,121,1)30% ) no-repeat;
+}
+
+header{
+    text-align: center;
+    padding: 30px;
+
+}
+
+aside#cont-lateral{
+    height: 500px;
+    width: 150px;
+    background: white;
+    display: inline-table;
+    border-radius: 3%;
+    text-align: center;
+}
+
+section#cont-corpo{
+    height: 500px;
+    width: 900px;
+    display: inline-table;
+    border-radius: 3%;
+    
+}
+
+article#cont-avisos{
+    display: inline-table;
+    height: 500px;
+    width: 200px;
+    background: oldlace;
+}
+
