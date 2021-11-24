@@ -1,20 +1,29 @@
 *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bolder;
     
     font-size: 10pt;
+    margin: 0%;
     
 
 }
 
 body{
-    background: rgb(135,135,142);
-    background: linear-gradient(120deg, rgba(135,135,142,1) 10%,  rgb(0, 140, 255) 21%, rgba(9,9,121,1)67% ) no-repeat;
+    background-color : rgba(153, 88, 141);
+    background: url(/wallpaper.jpg);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:cornsilk;
+
+
 }
+    
+    
+
+    
 
 header{
+    background:rgb(82, 83, 85);
     text-align: center;
-    padding: 30px;
+    padding: 1px;
 
 }
 
@@ -27,11 +36,25 @@ aside#cont-lateral{
     text-align: center;
 }
 
+aside#cont-lateral ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+aside#cont-lateral ul li a{
+    text-decoration: none;
+}
+
+
+
 section#cont-corpo{
     height: 500px;
     width: 900px;
     display: inline-table;
     border-radius: 3%;
+    padding: 10px;
+    background: rgba(231, 233, 235, 0.5);
     
 }
 
