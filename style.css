@@ -36,13 +36,13 @@ aside#cont-lateral{
     text-align: center;
 }
 
-aside#cont-lateral ul{
+aside#cont-lateral {
     list-style: none;
     margin: 0%;
     padding: 0%;
 }
 
-aside#cont-lateral ul li a{
+aside#cont-lateral  a{
     text-decoration: none;
 }
 
