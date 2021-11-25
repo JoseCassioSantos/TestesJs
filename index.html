@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Relógio</title>
+    <script src="/script/script.js"></script>
+    <script src="/script/over.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Iron Tipping</title>
 </head>
 <body>
     <header>
@@ -36,9 +37,17 @@
         <h1>Avisos</h1>
     </article>
 </div>
+
+<div id="overlay" onclick="overOff()">
+
+    <div id="overhora"></div>
+
+</div>
+
+
     <footer id="cont-robape">
         <button>Entrada</button>
-        <button>pausa</button>
+        <button onclick="overOn()" >pausa</button>
         <button>Saida</button>
 
     </footer>

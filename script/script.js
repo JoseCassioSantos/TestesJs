@@ -9,7 +9,7 @@ setInterval(function(){
     let minuto = novaHora.getMinutes();
     let segundo = novaHora.getSeconds();
 
-    let meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Augosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+    let meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Augosto", "Setembro", "Outubro", "Nov", "Dezembro"];
 
     let dia = data.getDate();
     let mes = meses[data.getMonth()];
@@ -28,6 +28,7 @@ setInterval(function(){
     // Com o textContent, iremos inserir as horas, minutos e segundos
     // no nosso elemento HTML
     document.getElementById('hora').innerHTML = hora+':'+minuto+':'+segundo+' <br> '+dia+'/'+mes+'/'+ano;
+    document.getElementById('overhora').innerHTML = hora+':'+minuto+':'+segundo+' <br> '+dia+' '+mes+' '+ano;
 },1000)
 
 
