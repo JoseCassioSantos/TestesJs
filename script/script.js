@@ -10,10 +10,13 @@ setInterval(function(){
     let segundo = novaHora.getSeconds();
 
     let meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Augosto", "Setembro", "Outubro", "Nov", "Dezembro"];
+    let semana = ["Domingo", "segunda-feira","terça-feira","quarta-feira","quinta-feira", "sexta-feira","Sabado"]
 
     let dia = data.getDate();
     let mes = meses[data.getMonth()];
     let ano = novaHora.getFullYear();
+    let dsemana = semana[data.getDay()];
+
     
     
 
@@ -28,7 +31,8 @@ setInterval(function(){
     // Com o textContent, iremos inserir as horas, minutos e segundos
     // no nosso elemento HTML
     document.getElementById('hora').innerHTML = hora+':'+minuto+':'+segundo+' <br> '+dia+'/'+mes+'/'+ano;
-    document.getElementById('overhora').innerHTML = hora+':'+minuto+':'+segundo+' <br> '+dia+' '+mes+' '+ano;
+    document.getElementById('overhora').innerHTML = hora+':'+minuto+':'+segundo ;
+    document.getElementById('overdata').innerHTML = dsemana+', '+''+dia+' '+mes+' '+ano;
 },1000)
 
 
@@ -44,4 +48,8 @@ function zero(x) {
     if (x < 10) {
         x = '0' + x;
     } return x;
+}
+
+function fecha(){
+    myWindow = window.open("https://neoservice.neobpo.com.br/services/navigation", "_blank", "width=500, height=500");
 }

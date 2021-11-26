@@ -1,15 +1,14 @@
 *{
     
     font-size: 10pt;
-    margin: 0%;
+ 
     
     
 
 }
 
 body{
-    background-color : rgba(153, 88, 141);
-    background: url(/src/wallpaper.jpg);
+    background-color : rgb(73, 72, 73);
     background-size: cover;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
@@ -37,31 +36,43 @@ aside#cont-lateral{
     height: 500px;
     width: 150px;
     background: white;
-    border-radius: 3%;
     text-align: center;
+    box-shadow: 5px 5px 7px black;
+    
    
 }
 
 aside#cont-lateral {
     list-style: none;
-    margin: 0%;
-    padding: 0%;
+    
     
 }
 
 aside#cont-lateral  a{
+    display: block;
     text-decoration: none;
+    font-weight: bold;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 3px;
+    box-shadow: 1px 1px 2px black;
+}
+
+aside#cont-lateral  a:hover{
+    background: #cfcdcd;
+
 }
 
 
 
 section#cont-corpo{
-    height: 500px;
-    width: 900px;
+    height: 480px;
+    width: 100%;
     border-radius: 3%;
     padding: 10px;
     background: rgba(231, 233, 235, 0.5);
-    
+    margin: 5px;
+    align-content: center;
 }
 
 article#cont-avisos{
@@ -73,24 +84,26 @@ article#cont-avisos{
 
 iframe{
     
-    padding: 2px;
-    border-radius: 5%;
+    padding: 20px;
+    
 }
 
 #overlay {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
+    position: fixed; 
+    display: none; 
+    width: 100%; 
+    height: 100%;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background: url(/src/wallpaper.jpg) no-repeat;
     background-size: cover;
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-    transition: all 1.5;
+    z-index: 2; 
+    cursor: pointer; 
+
+    
+
     
     
   }
@@ -99,9 +112,44 @@ iframe{
       padding-top: 30%;
       padding-left: 1%;
       text-shadow: 1px 2px 5px black;
-      font-size: 50pt;
+      font-size: 70pt;
+      z-index: 3;
       
 
   }
 
+  #overdata{
+    color: aliceblue;
+    padding-left: 2%;
+    text-shadow: 1px 2px 5px black;
+    font-size: 20pt;
+    
+
+}
+
+
+  .btn{
+      border: none;
+      padding: 5px;
+      font-weight: bold;
+      background: linear-gradient(180deg, rgba(126,34,195,1) 0%, rgb(19, 5, 17) 100%);
+      color:aliceblue;
+     
+      
+
+  }
+
+  .btn:hover{
+    background: linear-gradient(180deg, rgba(166,121,200,1) 0%, rgba(228,148,220,1) 100%);
+    cursor: pointer;
+    transition: 1.5s;
+   
+    
+  }
+
+  footer{
+      background: black;
+      padding: 9px;
+     
+  }
   
