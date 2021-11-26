@@ -1,0 +1,59 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(0deg, rgba(42,42,56,1) 26%, rgba(85,84,87,1) 77%) no-repeat ;
+    color:aliceblue;
+}
+.content{
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.plus{
+    border: none;
+    position: fixed;
+    background: linear-gradient(0deg, rgba(42,42,56,1) 20%, rgba(85,84,87,1) 80%) no-repeat ;
+    font-size: 20pt;
+    color:aliceblue;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 2px 2px 1px black ;
+    margin-left: 20%;
+    
+  
+    
+    
+}
+
+
+
+.plus:active{
+    box-shadow: 1px 1px 2px black inset;
+    background: linear-gradient(0deg, rgb(73, 73, 77) 26%, rgb(31, 30, 32) 77%) no-repeat ;
+    
+}
+
+a{
+    border: none;
+    background: linear-gradient(0deg, rgba(42,42,56,1) 20%, rgba(85,84,87,1) 80%) no-repeat ;
+    padding: 10px 20px;
+    font-size: 20pt;
+    color:aliceblue;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 2px 2px 1px black ;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+
+a:active{
+    box-shadow: 1px 1px 2px black inset;
+    background: linear-gradient(0deg, rgb(73, 73, 77) 26%, rgb(31, 30, 32) 77%) no-repeat ;
+}
