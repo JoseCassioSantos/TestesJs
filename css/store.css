@@ -35,6 +35,25 @@
     background: whitesmoke;
 }
 
+
+a{
+    width: 200px ;
+    height: 200px;
+    min-height: 200px;
+    box-shadow: 1px 1px 2px black;
+    display: inline-block;
+    text-align: center;
+    font-size: 100pt;
+    text-decoration: none;
+
+}
+
+a:hover:hover{
+    cursor: pointer;
+    background: whitesmoke;
+}
+
+
 #content{
 
    padding-left: 15%;
@@ -67,3 +86,6 @@ text-align: center;
 border-radius: 5%;
 
 }
+
+
+ 

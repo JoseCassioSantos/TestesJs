@@ -13,10 +13,28 @@ function Send(){
     let nomeK = txtNome.value
     let link = txtLink.value
 
-    localStorage.setItem( nomeK , link )
+    localStorage.setItem( nomeK,link )
 
-    
 
     document.getElementById("pop").style.display = "none";
+
+}
+
+onload = function(){
+
+    let url = localStorage.cassio
+
+    let att = document.createAttribute('href')
+    let tar = document.createAttribute('target')
+    tar.value = '_blank'
+    att.value =  url
+
+    nome = localStorage.cassio[15]
+
+    let btn = document.createElement('a')
+    btn.innerHTML = nome 
+    btn.setAttributeNode(att)
+    btn.setAttributeNode(tar)
+    document.body.appendChild(btn)
 
 }
