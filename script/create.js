@@ -1,6 +1,7 @@
 function btnAdd(){
     var nome = window.prompt('Nome do link')
     var link = window.prompt('Insira o link')
+    
     var att = document.createAttribute('href')
     var tar = document.createAttribute('target')
     tar.value = '_blank'
