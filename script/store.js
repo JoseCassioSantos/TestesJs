@@ -13,6 +13,8 @@ function Send(){
     let nomeK = txtNome.value
     let link = txtLink.value
 
+    
+
     localStorage.setItem( nomeK,link )
 
 
@@ -22,14 +24,14 @@ function Send(){
 
 onload = function(){
 
-    let url = localStorage.cassio
+    let url = localStorage.getItem('cassio')
 
     let att = document.createAttribute('href')
     let tar = document.createAttribute('target')
     tar.value = '_blank'
     att.value =  url
 
-    nome = localStorage.cassio[15]
+    nome = localStorage.key(0)
 
     let btn = document.createElement('a')
     btn.innerHTML = nome 
