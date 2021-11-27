@@ -11,7 +11,7 @@ body{
     background-color : rgb(73, 72, 73);
     background-size: cover;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    color: blanchedalmond;
  
 
 
@@ -19,6 +19,7 @@ body{
     
 #content{
     display: flex;
+    color:black;
 }
 
     
@@ -68,7 +69,6 @@ aside#cont-lateral  a:hover{
 section#cont-corpo{
     height: 480px;
     width: 100%;
-    
     padding: 10px;
     background: rgba(231, 233, 235, 0.5);
     margin: 5px;
@@ -85,6 +85,7 @@ article#cont-avisos{
 iframe{
     
     padding: 20px;
+    
     
 }
 
