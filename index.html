@@ -1,58 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/script/script.js"></script>
-    <script src="/script/over.js"></script>
-    <link rel="stylesheet" href="/css/style.css">
+    <script src="script/script.js"></script>
+    <script src="script/over.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Iron Tipping</title>
 </head>
+
 <body>
     <header>
         <h3 id="hora"></h3>
 
     </header>
 
-    <div id="content" > 
-    <aside id="cont-lateral">
-        <h1>Menu</h1>
-        
-                <a href="aplic.html" target="iframe_a">Aplicações</a>
-            
-               <a href="Anotação.html" target="iframe_a" > Anotações</a>
-            
-                <a href="info.html" target="iframe_a">Informações</a>
-         
+    <div id="content">
+        <aside id="cont-lateral">
+            <h1>Menu</h1>
 
-    </aside>
+            <a id="apli" href="aplic.html" target="iframe_a">Aplicações</a>
 
-    <section id="cont-corpo">
-        <iframe src="entrada.html" name="iframe_a" height="450" width="850" frameborder="0" ></iframe>
+            <a id="nota" href="Anotação.html" target="iframe_a"> Anotações</a>
 
-    </section>
-    
-    
-</div>
-
-<div id="overlay" onclick="overOff()">
-
-    <div id="overhora"></div>
-    <div id="overdata"></div>
+            <a id="info" href="info.html" target="iframe_a">Informações</a>
 
 
-</div>
+        </aside>
+
+        <section id="cont-corpo">
+            <iframe src="entrada.html" name="iframe_a" height="450" width="850" frameborder="0"></iframe>
+
+        </section>
+
+
+    </div>
+
+    <div id="overlay" onclick="overOff()">
+
+        <div id="overhora"></div>
+        <div id="overdata"></div>
+
+
+    </div>
 
 
     <footer>
-        
-        <button class="btn" onclick="overOn()" >Clock</button>
-      
 
-        
-        
+        <button class="btn" onclick="overOn()">Clock</button>
+
+
+
 
     </footer>
 </body>
+
 </html>

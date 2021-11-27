@@ -65,3 +65,4 @@ function intranet(){
 function cortina(){
     myWindow = window.open("https://punchclock2.neobpo.com.br/PunchClockClient/Forms/Login.aspx?ReturnUrl=%2fPunchClockClient%2f", "_blank", "width=500, height=500");
 }
+
