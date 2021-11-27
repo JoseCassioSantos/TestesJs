@@ -66,3 +66,33 @@ function cortina(){
     myWindow = window.open("https://punchclock2.neobpo.com.br/PunchClockClient/Forms/Login.aspx?ReturnUrl=%2fPunchClockClient%2f", "_blank", "width=500, height=500");
 }
 
+var elem = document.documentElement;
+
+function full(){
+
+    if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.webkitRequestFullscreen) { /* Safari */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { /* IE11 */
+        elem.msRequestFullscreen();
+      }
+      document.getElementById('btnfull').style.display = 'none'
+      document.getElementById('btnffull').style.display ='inline'
+
+    } 
+
+    function nfull() {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) { /* Safari */
+          document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) { /* IE11 */
+          document.msExitFullscreen();
+        }
+        document.getElementById('btnffull').style.display = 'none'
+        document.getElementById('btnfull').style.display = 'inline'
+      }
+
+
+

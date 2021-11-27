@@ -36,9 +36,11 @@ header{
 aside#cont-lateral{
     height: 500px;
     width: 150px;
-    background: white;
+    background: rgb(117, 117, 117);
     text-align: center;
     box-shadow: 5px 5px 7px black;
+    color: cornsilk;
+    border-bottom: 3px solid darkmagenta;
     
    
 }
@@ -57,6 +59,8 @@ aside#cont-lateral  a{
     padding: 10px;
     margin: 3px;
     box-shadow: 1px 1px 2px black;
+    color: white;
+    border-bottom: 2px solid darkmagenta;
 }
 
 aside#cont-lateral  a:hover{
@@ -75,12 +79,7 @@ section#cont-corpo{
     align-content: center;
 }
 
-article#cont-avisos{
-    
-    height: 500px;
-    width: 200px;
-    background: oldlace;
-}
+
 
 iframe{
     
@@ -143,6 +142,8 @@ iframe{
   .btn:hover{
     background: linear-gradient(180deg, rgba(166,121,200,1) 0%, rgba(228,148,220,1) 100%);
     cursor: pointer;
+    -webkit-transition: 1.5s;
+    -o-transition: 1.5s;
     transition: 1.5s;
    
     

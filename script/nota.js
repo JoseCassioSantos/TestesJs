@@ -14,6 +14,8 @@ function save() {
 }
 
 
+
+
 function apaga(){
     localStorage.removeItem('save')
     var res = document.getElementById('txtnotas')
