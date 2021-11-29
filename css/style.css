@@ -92,9 +92,12 @@ text-shadow: 1px 2px 5px black;
     padding: 3px;
     border-radius: 20px 1px;
     text-shadow: 1px 3px 5px black;
+    
    
     
     }
+
+    
 
 aside#cont-lateral{
     height: 500px;
@@ -104,6 +107,7 @@ aside#cont-lateral{
     box-shadow: 5px 5px 7px black;
     color: cornsilk;
     border-bottom: 3px solid darkmagenta;
+    
     
    
 }
@@ -125,13 +129,15 @@ aside#cont-lateral  a{
     color: white;
     border-bottom: 2px solid darkmagenta;
     border-radius: 1px 10px;
+    transition:  ease-in;
     transition: 0.5s;
 }
 
 aside#cont-lateral  a:hover{
     background: #5f5a5a;
     border-radius: 10px 1px;
-
+   
+    
 }
 
 
