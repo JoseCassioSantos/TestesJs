@@ -55,7 +55,7 @@ function NeoserviceM(){
 }
 
 function Neoservice(){
-    myWindow = window.open("https://neoservice.neobpo.com.br/tas/public/login/saml", "_blank", "width=500, height=500");
+    myWindow = window.open("", "_blank", "width=500, height=500");
 }
 
 function intranet(){
