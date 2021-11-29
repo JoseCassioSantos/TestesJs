@@ -32,7 +32,7 @@ setInterval(function(){
     // no nosso elemento HTML
     document.getElementById('hora').innerHTML = +hora+':'+minuto+':'+segundo+' <br> '+dia+'/'+mes+'/'+ano;
     document.getElementById('overhora').innerHTML = +hora+':'+minuto+':'+segundo ;
-    document.getElementById('overdata').innerHTML = +dsemana+', '+''+dia+' '+mes+' '+ano;
+    document.getElementById('overdata').innerHTML = dsemana +', '+''+dia+' '+mes+' '+ano;
 },1000)
 
 
