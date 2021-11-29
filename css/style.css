@@ -9,10 +9,10 @@
 
 body{
     background-color : rgb(73, 72, 73);
-    background-size: cover;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: blanchedalmond;
- 
+    
+    
 
 
 }
@@ -349,4 +349,7 @@ iframe{
       padding: 9px;
      
   }
+  
+  
+  
   
