@@ -30,8 +30,71 @@ header{
     text-align: center;
     padding: 20px;
     color: lightcyan;
+    height: 40px;
 
 }
+
+
+.logo{
+    display: block;
+    position: absolute;
+    background: gray;
+    padding : 10px;
+    box-shadow: 1px 2px 10px black;
+    animation-name: radius;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    border-bottom: 3px solid darkmagenta;
+    
+
+}
+
+.logo2{
+    margin-top: 20px;
+    margin-left: 85%;
+    display: block;
+    position: absolute;
+    background: gray;
+    padding : 10px;
+    box-shadow: 1px 2px 10px black;
+    animation-name: radius;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    border-bottom: 3px solid darkmagenta;
+    
+
+}
+
+@keyframes radius {
+    0% { border-radius: 0px 20px;}
+    25% { border-radius: 0px 20px;}
+    50% { border-radius: 20px 0px;}
+    100% { border-radius: 0px 20px;}
+    
+
+}
+
+#iron{
+    
+font: 20pt bolder;
+display: inline;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-shadow: 1px 2px 5px black;
+
+}
+
+#tipping{
+    
+    font: 20pt ;
+    display: inline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background:rgb(73, 72, 73);
+    padding: 3px;
+    border-radius: 20px 1px;
+    text-shadow: 1px 3px 5px black;
+   
+    
+    }
 
 aside#cont-lateral{
     height: 500px;
@@ -61,10 +124,13 @@ aside#cont-lateral  a{
     box-shadow: 1px 1px 2px black;
     color: white;
     border-bottom: 2px solid darkmagenta;
+    border-radius: 1px 10px;
+    transition: 0.5s;
 }
 
 aside#cont-lateral  a:hover{
-    background: #cfcdcd;
+    background: #5f5a5a;
+    border-radius: 10px 1px;
 
 }
 
@@ -77,6 +143,7 @@ section#cont-corpo{
     background: rgba(231, 233, 235, 0.5);
     margin: 5px;
     align-content: center;
+    border-radius: 0px 30px ;
 }
 
 
@@ -84,6 +151,7 @@ section#cont-corpo{
 iframe{
     
     padding: 20px;
+    
     
     
 }
@@ -97,32 +165,151 @@ iframe{
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(/src/wallpaper.jpg) no-repeat;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgb(156, 48, 124) 0%, rgba(28,20,33,1) 33%, rgb(61, 11, 91) 61%, rgb(156, 48, 124) 100%);
     background-size: cover;
     z-index: 2; 
     cursor: pointer; 
 
-    
-
-    
+     
     
   }
+
+  .fundo1{
+      display: fixed;
+      background:rgb(73, 72, 73);
+      position: absolute;
+      height: 600px;
+      width: 600px;
+      z-index: -2;
+      margin-top:25%;
+      margin-left:0%;
+      border-radius: 200px  700px 200px  200px ;
+      animation-name: fundo1;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      animation-delay: 6s;
+  }
+
+  .fundo2{
+    display: fixed;
+    background: rgb(131,58,180);
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    z-index: -2;
+    margin-top:15%;
+    margin-left:70%;
+    animation-name: fundo2;
+    border-radius: 200px  700px 200px  200px ;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+
+.fundo3{
+
+    display: fixed;
+    background: rgb(183, 122, 224);
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    z-index: -3;
+    margin-top:0%;
+    margin-left:0%;
+    border-radius: 200px  700px 200px  200px ;
+    animation-name: fundo3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+
+.fundo4{
+
+    display: fixed;
+    border: 3px solid ;
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    z-index: -4;
+    margin-top:10%;
+    margin-left:20%;
+    border-radius: 200px  700px 200px  200px ;
+    animation-name: fundo1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 8.5s;
+}
+
+
+.fundo5{
+
+    display: fixed;
+    border: 6px solid rgb(153, 51, 119) ;
+    position: absolute;
+    height: 800px;
+    width: 600px;
+    z-index: -2;
+    margin-top:0%;
+    margin-left:0%;
+    border-radius: 200px  700px 200px  200px ;
+    animation-name: fundo3;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes fundo1 {
+    0% { border-radius: 200px  700px 200px  200px ;}
+    25% { border-radius: 200px  200px 700px  200px;}
+    50% { border-radius: 200px  700px 200px  700px;}
+    70% { border-radius: 200px  700px 200px  700px;}
+    100% { border-radius: 200px  900px 200px  900px;}
+    
+
+}
+
+@keyframes fundo2 {
+    0% { border-radius: 200px  700px 200px  200px ;}
+    25% { border-radius: 200px  200px 700px  200px;}
+    50% { border-radius: 200px  700px 200px  700px;}
+    70% { border-radius: 200px  700px 200px  700px;}
+    100% { border-radius: 200px  700px 200px  200px;}
+    
+
+}
+
+@keyframes fundo3 {
+    0% { border-radius: 200px  700px 200px  200px ;}
+    25% { border-radius: 200px  200px 700px  200px;}
+    50% { border-radius: 200px  700px 200px  700px;}
+    70% { border-radius: 200px  700px 200px  700px;}
+    100% { border-radius: 200px  700px 200px  200px;}
+    
+
+}
+
+
+
   #overhora{
       color: aliceblue;
       padding-top: 30%;
       padding-left: 1%;
       text-shadow: 1px 2px 5px black;
       font-size: 70pt;
+      
 
       
 
   }
 
   #overdata{
+    display: block;
     color: aliceblue;
     padding-left: 2%;
     text-shadow: 1px 2px 5px black;
     font-size: 20pt;
+    
     
 
 }
