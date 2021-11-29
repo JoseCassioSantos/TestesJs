@@ -30,9 +30,9 @@ setInterval(function(){
 
     // Com o textContent, iremos inserir as horas, minutos e segundos
     // no nosso elemento HTML
-    document.getElementById('hora').innerHTML = hora+':'+minuto+':'+segundo+' <br> '+dia+'/'+mes+'/'+ano;
-    document.getElementById('overhora').innerHTML = hora+':'+minuto+':'+segundo ;
-    document.getElementById('overdata').innerHTML = dsemana+', '+''+dia+' '+mes+' '+ano;
+    document.getElementById('hora').innerHTML = +hora+':'+minuto+':'+segundo+' <br> '+dia+'/'+mes+'/'+ano;
+    document.getElementById('overhora').innerHTML = +hora+':'+minuto+':'+segundo ;
+    document.getElementById('overdata').innerHTML = +dsemana+', '+''+dia+' '+mes+' '+ano;
 },1000)
 
 
@@ -64,6 +64,10 @@ function intranet(){
 
 function cortina(){
     myWindow = window.open("https://punchclock2.neobpo.com.br/PunchClockClient/Forms/Login.aspx?ReturnUrl=%2fPunchClockClient%2f", "_blank", "width=500, height=500");
+}
+
+function anota(){
+  myWindow = window.open("./Anotação.html", "_blank", "width=500, height=500");
 }
 
 var elem = document.documentElement;
