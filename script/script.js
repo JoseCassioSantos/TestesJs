@@ -50,25 +50,6 @@ function zero(x) {
     } return x;
 }
 
-function NeoserviceM(){
-    myWindow = window.open("https://neoservice.neobpo.com.br/services/navigation", "_blank", "width=500, height=500");
-}
-
-function Neoservice(){
-    myWindow = window.open("", "_blank", "width=500, height=500");
-}
-
-function intranet(){
-    myWindow = window.open("https://intranet.neobpo.com.br/", "_blank", "width=500, height=500");
-}
-
-function cortina(){
-    myWindow = window.open("https://punchclock2.neobpo.com.br/PunchClockClient/Forms/Login.aspx?ReturnUrl=%2fPunchClockClient%2f", "_blank", "width=500, height=500");
-}
-
-function anota(){
-  myWindow = window.open("./Anotação.html", "_blank", "width=500, height=500");
-}
 
 var elem = document.documentElement;
 
