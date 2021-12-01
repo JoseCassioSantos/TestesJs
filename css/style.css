@@ -352,12 +352,21 @@ iframe{
   
   .under{
       content: '';
-        border: 1px solid purple  ;
+       border: 1px solid purple  ;
        display: inline-block;
        width: 100%;
        vertical-align: middle;
+       animation-name: linein;
+       animation-duration: 3s;
+       animation-iteration-count: infinite;
+       
+       
    
 
   }
   
+  @keyframes linein {
+      from {border: 1px solid rgb(233, 54, 233);}
+      to {border: 1px solid purple;}
+  }
   
