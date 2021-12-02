@@ -5,6 +5,8 @@ function save() {
     if (typeof (Storage) !== "undefined") {
         localStorage.save = notas
 
+        alert("Salvo!!!")
+
     } else {
 
         alert("Não suportado")
@@ -31,3 +33,19 @@ onload = function () {
 
 }
 
+
+
+
+function copy() {
+  
+  var copyText = document.getElementById("txtnotas");
+
+  
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); 
+
+
+  navigator.clipboard.writeText(copyText.value);
+  
+  
+}
