@@ -374,9 +374,16 @@ iframe{
 
       background: #5f5a5a;
       border-radius: 10px;
-      
+    padding-left: 20px;
+    margin-bottom: 10px;
+    
       
   }
+
+.firstop{
+    padding-top: 60px;
+}
+
 
   #tips textarea{
       background: #5f5a5a;
@@ -386,4 +393,33 @@ iframe{
 
   #tips pre{
       color: #d3d3d3af;
+  }
+
+
+#tiptop{
+    position: fixed;
+    width: 100%;
+    background: #5f5a5a;
+    margin: 0%;
+    box-shadow: 1px 1px 5px black;
+    padding-top: 5px;
+    padding-left: 5px;
+    
+}
+
+  
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: purple;
+    border-radius: 10px;
   }
