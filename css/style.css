@@ -383,3 +383,7 @@ iframe{
       border: none;
       color: aliceblue;
   }
+
+  #tips pre{
+      color: #d3d3d3af;
+  }
