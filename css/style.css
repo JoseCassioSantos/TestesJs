@@ -377,3 +377,9 @@ iframe{
       
       
   }
+
+  #tips textarea{
+      background: #5f5a5a;
+      border: none;
+      color: aliceblue;
+  }
