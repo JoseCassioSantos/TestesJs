@@ -145,7 +145,7 @@ aside#cont-lateral  a:hover{
 
 
 section#cont-corpo{
-    height: 480px;
+    height: 500px;
     width: 100%;
     padding: 10px;
     background: rgba(231, 233, 235, 0.5);
@@ -360,8 +360,6 @@ iframe{
        animation-duration: 3s;
        animation-iteration-count: infinite;
        
-       
-   
 
   }
   
