@@ -460,5 +460,6 @@ iframe{
 
         #links p:hover{
             background: rgba(231, 233, 235, 0.5);
+            transition: 0.5s;
             
         }
