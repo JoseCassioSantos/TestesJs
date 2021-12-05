@@ -112,16 +112,25 @@ aside#cont-lateral{
     color: cornsilk;
     border-bottom: 3px solid darkmagenta;
     font-size: 10pt;
-    
-    
+    animation-name: entrance;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
    
 }
 
-aside#cont-lateral {
-    list-style: none;
-    
-    
+@keyframes entrance {
+    from{
+        width: 0px;
+        opacity: 0; 
+    }
+    to{
+        width: 150px;
+        opacity: 1;
+    }
 }
+
+
+
 
 aside#cont-lateral  a{
     display: block;
@@ -182,6 +191,7 @@ iframe{
     background-size: cover;
     z-index: 2; 
     cursor: pointer; 
+   
 
      
     
