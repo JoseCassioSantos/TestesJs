@@ -186,8 +186,9 @@ iframe{
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgb(156, 48, 124) 0%, rgba(28,20,33,1) 33%, rgb(61, 11, 91) 61%, rgb(156, 48, 124) 100%);
+    /* background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgb(156, 48, 124) 0%, rgba(28,20,33,1) 33%, rgb(61, 11, 91) 61%, rgb(156, 48, 124) 100%);*/
+    background: url(http://source.unsplash.com/random) no-repeat;
     background-size: cover;
     z-index: 2; 
     cursor: pointer; 
